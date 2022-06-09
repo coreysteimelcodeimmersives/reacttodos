@@ -88,7 +88,8 @@ const ToDoComponent = () => {
             <li key={`item-${index}`}>
               <h2>{element.title}</h2>
               <p>{element.description}</p>
-              <h2>{element.importance}</h2>
+              <h3>{element.importance}</h3>
+              <hr />
             </li>
           );
         })}
